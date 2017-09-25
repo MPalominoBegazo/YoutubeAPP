@@ -39,7 +39,7 @@ class Video{
                   $("#root").append(list);
                   $("#video").append(list[0]);
                   $("#video").append(`<h1>"${this.result.title}"</h1>`);
-                  $("#video").append(`<div>
+                  $("#video").append(`<div class="description">
                                           <p>"${this.result.descr}"</p>
                                      </div>`);
 
