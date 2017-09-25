@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube jQuery</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="node_modules/youtube-api-search/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+    <link rel="icon" href="img/play.png" />
+    <!--<script src="node_modules/font-awesome/css/font-awesome.min.css"></script>-->
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="/img/YTLogo.gif" alt="YOUTUBE" width="100px"></a>
+            </div>
+            <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-sm-3 col-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control SearchBar" placeholder="Search for..." id="inputSearch">
+                        <span class="input-group-btn">
+                            <button class="btn btn-defaul SearchButton" type="button" id="btnSearch">
+                                <span class=" glyphicon glyphicon-search SearchIcon" ></span>
+                        </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid text-center" align="center">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="video"></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="Descr"></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="comments"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <ol id="root">
+
+                </ol>
+            </div>
+        </div>
+
+    </div>
+    <script src="clases.js"></script>
+</body>
+
+</html>
