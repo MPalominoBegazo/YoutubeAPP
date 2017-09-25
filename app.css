@@ -1,6 +1,6 @@
 body {
   background: #000000;
-  /*background: url("../img/header-background.jpg"); 
+ /* background: url("../img/header-background.jpg"); 
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -17,9 +17,17 @@ body {
     color:#fff;
    
 }
-/*ol li{
-  list-style:none;
-}*/
+.description{
+  background-color: #FAFAFA;
+  color: black;
+  padding: 10px;
+}
+#comments{
+  background-color: #FAFAFA;
+  color: black;
+  padding: 10px;
+}
+
 .SearchButton
 {
     background-color:#ED1C24;
